@@ -6,7 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+*/__pycache__/
+/.vscode/
+.vscode
+__pycache__
+*.pyc
+.env
+.vscode
+db.sqlite3
 # Distribution / packaging
+db.sqlite3
 .Python
 build/
 develop-eggs/
