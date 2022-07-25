@@ -3,8 +3,9 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 from .models import Post
 from django.urls import reverse_lazy
-
 from django.views.generic.list import ListView
+
+
 
 class PostListView(ListView):
     model = Post

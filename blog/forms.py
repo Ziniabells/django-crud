@@ -1,9 +1,9 @@
 from django import forms
-from .models import BlogApp
+from .models import Post
 
 class BlogAppForm(forms):
     class Meta:
-        model = BlogApp
+        model = Post
         fields = [
         "title",
         "description",
