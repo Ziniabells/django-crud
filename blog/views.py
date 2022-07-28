@@ -17,7 +17,7 @@ class PostCreateView(CreateView):
     fields = '__all__'
     success_url = reverse_lazy('blog:all')
 
-    template_name = 'home.html'
+    # template_name = 'home.html'
 
 class PostDetailView(DetailView):
     model = Post
